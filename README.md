@@ -1,7 +1,7 @@
 # Getting_Cleaning_Data
 Contains material for the final assignment of Getting and Cleaning Data Course
 
-## the information from the UCI HAR  (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is manually  downloaded and unzippe, and placed in the working directory of Rstudio
+the information from the UCI HAR  (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is manually  downloaded and unzippe, and placed in the working directory of Rstudio
 Or rather, the working directory is pointed towards the download folder for this script.
 
 Step 1: import the files that are used in the conversion of the data-layout
@@ -12,7 +12,7 @@ Step 5: select the right columns, group them so it's possible to average the mea
 Export to .txt-file
 
 Code:
-## step 1:
+# step 1:
 # Assuming the files have been downloaded and unzipped
 
 # set working directory to the folder in which the downloaded zip file is (manual) extracted.
