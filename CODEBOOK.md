@@ -13,35 +13,35 @@ Codebook for final_dataset.txt.
     *    "WALKING_UPSTAIRS"  
 
 
-Var - factor
-    "mean"
-    "std" 
+* Var - factor
+  *  "mean"
+  *  "std" 
 
-Axis - factor
-    ""
-    "X"
-    "Y"
-    "Z"
+* Axis - factor
+  *  ""
+   * "X"
+   * "Y"
+   * "Z"
 
-Domain - factor
-  "frequency"
-  "time"    
+* Domain - factor
+ * "frequency"
+ * "time"    
 
-Instrument - factor
-  "accelerometer" 
-  "gyrometer" 
+* Instrument - factor
+ * "accelerometer" 
+ * "gyrometer" 
 
-Acceleration - factor
-  "body"
-  "gravity"
+* Acceleration - factor
+ * "body"
+ * "gravity"
 
-Jerk - factor
-  "jerk"
-  NA
+* Jerk - factor
+ * "jerk"
+ * NA
 
-Magnitude - factor
-  "mag"
-  NA
+* Magnitude - factor
+ * "mag"
+ * NA
 
-count - numeric
-  measurements
+* count - numeric
+ * measurements
