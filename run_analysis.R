@@ -65,7 +65,9 @@ wide_short <- cbind(Subject=subject$subject, Activity=y$activity, X_mean_std)
 # there is no differentiation between 'Body' and 'BodyBody'. 
 small_long <- gather(wide_short, var_temp, count, -Subject, -Activity) %>%
         separate(var_temp, c("DomAccInstr", "Var", "Axis")) %>%
-        mutate(Domain = as.factor(ifelse(substr(DomAccInstr, 1,1)=="t", "time", "frequency")), 
+        mutate(Var = as.factor(Var),
+               Axis = as.factor(Axis),
+                Domain = as.factor(ifelse(substr(DomAccInstr, 1,1)=="t", "time", "frequency")), 
                 AccInstr = as.factor(substr(DomAccInstr, 2, 1000))) %>%
         mutate(Instrument = as.factor(ifelse(grepl("Acc", AccInstr), "accelerometer", ifelse(grepl("Gyro", AccInstr), "gyrometer", NA))),
                 Acceleration = as.factor(ifelse(grepl("Body", AccInstr), "body", ifelse(grepl("Gravity", AccInstr),"gravity", NA))),
