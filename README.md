@@ -16,3 +16,5 @@ Step 5: select the right columns, group them so it's possible to average the mea
 
 Export to .txt-file
 
+There is extensive commentary in the script file, please read there if you want more information.
+
