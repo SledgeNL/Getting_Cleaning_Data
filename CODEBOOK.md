@@ -1,16 +1,16 @@
 Codebook for final_dataset.txt.
 
-1 Subject - integer
-*    1..30: 30 subjects that particpated 
+* Subject - integer
+    *    1..30: 30 subjects that particpated 
 
 
-2 Activity - factor
-*    "LAYING"
-*    "SITTING"
-*    "STANDING"
-*    "WALKING"
-*    "WALKING_DOWNSTAIRS"
-*    "WALKING_UPSTAIRS"  
+* Activity - factor
+    *    "LAYING"
+    *    "SITTING"
+    *    "STANDING"
+    *    "WALKING"
+    *    "WALKING_DOWNSTAIRS"
+    *    "WALKING_UPSTAIRS"  
 
 
 Var - factor
